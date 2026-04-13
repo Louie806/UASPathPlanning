@@ -1,4 +1,4 @@
-# Unity generated folders
+# Ignore Unity-generated folders
 
 [Ll]ibrary/
 [Tt]emp/
@@ -7,13 +7,14 @@
 UserSettings/
 MemoryCaptures/
 
-# IDE files
+# Ignore IDE/editor files
 
 .vs/
 .vscode/
 .idea/
 *.csproj
 *.sln
+*.slnx
 *.suo
 *.tmp
 *.user
@@ -29,7 +30,7 @@ MemoryCaptures/
 .DS_Store
 Thumbs.db
 
-# Auto-generated / cache
+# Gradle / cache
 
 .gradle/
 *.gradle
@@ -39,21 +40,39 @@ Thumbs.db
 
 /Assets/*
 
-# But keep Scripts
+# Keep your scripts folder
 
-!/Assets/Scripts/
-!/Assets/Scripts/**
+!/Assets/_Scripts/
+!/Assets/_Scripts/**
 
-
+# Keep input actions
 
 !/Assets/InputSystem_Actions.inputactions
+!/Assets/InputSystem_Actions.inputactions.meta
 
-# Keep build output
+# Keep meta files for included assets
 
-!/Build/
-!/Build/**
+!/Assets/**/*.meta
 
-# Keep readme
+# Keep Packages and ProjectSettings so the project can still be opened
 
-!README.md
+!/Packages/
+!/Packages/**
+!/ProjectSettings/
+!/ProjectSettings/**
+
+# Ignore everything in Build by default
+
+/Build/*
+
+# Keep only the minimum Windows build files usually required
+
+!/Build/UASPathPlanning.exe
+!/Build/UASPathPlanning_Data/
+!/Build/UASPathPlanning_Data/**
+!/Build/UnityPlayer.dll
+
+# Keep top-level files you want
+
 !/.gitignore
+!/README.md
