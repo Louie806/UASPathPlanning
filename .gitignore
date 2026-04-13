@@ -40,14 +40,15 @@ Thumbs.db
 
 /Assets/*
 
-# Keep your scripts folder
-
+# Allow folders so Git can go deeper
 !/Assets/_Scripts/
-!/Assets/_Scripts/**.cs
+!/Assets/_Scripts/**/
+!/Assets/_Scripts/**/*.cs
 
 # Keep Packages and ProjectSettings so the project can still be opened
 
-/Packages/
+/Packages/*
+/ProjectSettings/*
 
 
 # Ignore everything in Build by default
@@ -56,10 +57,7 @@ Thumbs.db
 
 # Keep only the minimum Windows build files usually required
 
-!/Build/UASPathPlanning.exe
-!/Build/UASPathPlanning_Data/
-!/Build/UASPathPlanning_Data/**
-!/Build/UnityPlayer.dll
+!/Build/FinalUASPathPlanningBuild.zip
 
 # Keep top-level files you want
 
