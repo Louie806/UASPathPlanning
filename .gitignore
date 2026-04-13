@@ -24,6 +24,7 @@ MemoryCaptures/
 *.svd
 *.unityproj
 *.sln.iml
+*.meta
 
 # OS files
 
