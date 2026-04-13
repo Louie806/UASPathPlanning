@@ -30,7 +30,7 @@ MemoryCaptures/
 *.booproj
 *.svd
 
-# Rider
+
 
 .idea/
 *.sln.iml
