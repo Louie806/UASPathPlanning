@@ -43,23 +43,12 @@ Thumbs.db
 # Keep your scripts folder
 
 !/Assets/_Scripts/
-!/Assets/_Scripts/**
-
-# Keep input actions
-
-!/Assets/InputSystem_Actions.inputactions
-!/Assets/InputSystem_Actions.inputactions.meta
-
-# Keep meta files for included assets
-
-!/Assets/**/*.meta
+!/Assets/_Scripts/**.cs
 
 # Keep Packages and ProjectSettings so the project can still be opened
 
-!/Packages/
-!/Packages/**
-!/ProjectSettings/
-!/ProjectSettings/**
+/Packages/
+
 
 # Ignore everything in Build by default
 
